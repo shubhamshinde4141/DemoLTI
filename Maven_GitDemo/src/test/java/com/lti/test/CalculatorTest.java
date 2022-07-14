@@ -64,6 +64,8 @@ class CalculatorTest {
 
 		System.out.println(myList.size());
 		
+		Assertions.assertEquals(2, myList.size());
+		
 		
 	}
 
