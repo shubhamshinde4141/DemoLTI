@@ -14,12 +14,12 @@ class CalculatorTest {
 	
 	Calculator c = new Calculator();
 	
-	@Disabled
+
 	@Test
 	void testAdd() {
 		
 		int r = c.add(20, 40);
-		Assertions.assertEquals(60, r);
+		Assertions.assertEquals(70, r);
 		//fail("Not yet implemented");
 	}
 	
